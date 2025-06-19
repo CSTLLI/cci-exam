@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "ba08faac-4f3e-417f-9d5c-177f755c5ba6",
+		"name": "Java Exam",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25928699"
+	},
+	"item": [
+		{
+			"name": "Get all books",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/books",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save a book",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"isbn\": \"123456\",\r\n    \"title\": \"Apprendre Java pour les nuls\",\r\n    \"author\": \"Ismael\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/booksx",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"booksx"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get info about a book",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/books/9782070360024",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"books",
+						"9782070360024"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
