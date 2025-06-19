@@ -1,4 +1,8 @@
-# 📚 Application Bibliothèque
+  <a href="https://www.lavicon.dev/" target="_blank">
+    <img src="https://github.com/user-attachments/assets/8003e143-0277-4790-82cd-7138fc2ad482" alt="Logo" width="200">
+  </a>
+
+# Application Bibliothèque
 
 Application de gestion de bibliothèque développée avec **Spring Boot** et **JavaFX** pour l'évaluation M2I.
 
