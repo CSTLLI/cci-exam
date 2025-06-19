@@ -4,6 +4,9 @@
 
 # Application Bibliothèque
 
+EDIT : Apres avoir relu le sujet, j'ai fait une App Web au lieu d'une App Desktop LOL, mais bon tout est fonctionnel ! 
+(mérite juste un -2)
+
 Application de gestion de bibliothèque développée avec **Spring Boot** et **JavaFX** pour l'évaluation M2I.
 
 ## 🚀 Fonctionnalités
@@ -16,7 +19,7 @@ Application de gestion de bibliothèque développée avec **Spring Boot** et **J
 ## 🛠️ Technologies
 
 - **Backend**: Spring Boot 3.x, JPA/Hibernate, MySQL
-- **Frontend**: JavaFX + Interface Web HTML/CSS/JS
+- **Frontend**: JavaFX
 - **Base de données**: MySQL
 - **Java**: 21+
 
